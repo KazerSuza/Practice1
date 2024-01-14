@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  margin: 28px 48px 0;
+  justify-content: space-between;
+}
+
+.header__logo {
+  width: 176px;
+  height: 52px;
+}
+
+.languages__list {
+  display: flex;
+  gap: 18px;
+  align-self: end;
+  list-style: none;
+}
+
+.language__link {
+  font-size: 24px;
+  line-height: 1.16;
+}
+
+.language__link_active {
+  text-decoration: none;
+}
+
+.main__title {
+  margin-top: 56px;
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 1.04;
+  text-align: center;
+}
+
+.subtitle {
+  margin-top: 32px;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.main__image {
+  max-width: 984px;
+  max-height: 615px;
+  margin: 64px auto 0;
+}
+
+.main__image_description {
+  margin-left: 148px;
+  margin-top: 8px;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
